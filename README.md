@@ -4,6 +4,10 @@ A Binance Smart Chain node.js script arbitrage trading bot.
 
 Merlin takes circular routes (e.g. WBNB -> BUSD -> CAKE -> WBNB) in a single trade.
 
+## Important
+
+Merlin operates at peak efficiency during times of volatile bullishness / bearishness. When market conditions are flatter, merlin will not take many trades, and many of these will likely be reverted owing to slippage. It is recommended that you test and/or use merlin only in times of volatility within the Binance Smart Chain ecosystem or where applicable, during times of market volatility across a specific Binance Smart Chain dex.
+
 ## General
 
 Merlin takes circular trades from a set base currency, looking for a minimum profit. Binance Smart Chain is a suitable host for this type of bot owing to the fast transaction times and low gas costs.
