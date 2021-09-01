@@ -8,6 +8,12 @@ Merlin takes circular routes (e.g. WBNB -> BUSD -> CAKE -> WBNB) in a single tra
 
 Merlin operates at peak efficiency during times of volatile bullishness / bearishness. When market conditions are flatter, merlin will not take many trades, and many of these will likely be reverted owing to slippage. It is recommended that you test and/or use merlin only in times of volatility within the Binance Smart Chain ecosystem or where applicable, during times of market volatility across a specific Binance Smart Chain dex.
 
+Here is a screenshot taken from https://www.coingecko.com/en/exchanges/pancakeswap#statistics showing the trade volume on Pancake Swap throughout 2021.
+
+![pancakeSwap-vol-2021](https://user-images.githubusercontent.com/79384921/131680793-b09c7106-52fd-4f34-81db-00b5754ba2d7.png)
+
+I have circled in blue the period over which Merlin performed really well. Since this time, it has not performed effectively and returns mostly "insufficient output amount" errors which are a safety-catch to prevent losses through slippage. I would check in with this website to keep track of the volume levels on pancakeSwap and only use Merlin during similar conditions to improve your chances of getting successful and profitable results. I should say that it is my theory that volume is the driving factor affecting Merlin's performance and I am not 100% sure about this, however I think it is the most likely factor to impact Merlin's results. If you have any alternative theories about this I would be excited to hear them.
+
 ## General
 
 Merlin takes circular trades from a set base currency, looking for a minimum profit. Binance Smart Chain is a suitable host for this type of bot owing to the fast transaction times and low gas costs.
